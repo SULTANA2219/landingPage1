@@ -1,0 +1,483 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>landing Page (design from website)</title>
+        <link rel="stylesheet" href="https://fontawesome.com/icons">
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            header {
+                margin-top: -20px;
+                background-color: darkgreen;
+                color: white;
+                padding: 30px;
+            }
+            .logo {
+                
+            }
+            .toggle-bar {
+                color: white;
+            }
+            .lemonade-card {
+                background-color: #ADF802;
+                padding: 40px;
+                margin: 10px;
+                border-radius: 25px;
+            }
+            .green-card {
+                text-align: center;
+            }
+           /* .button {
+                margin-left: 250px;
+                width: 200px;
+                text-align: center;
+                border-style:  solid;
+                background-color: #ADF802;
+                border-radius: 25px;
+                color: darkgreen;
+                border: 2px solid #ADF802;
+            }
+            .button:hover {
+                background-color: white;
+                color: black;
+                transition: background-color 0.5s;
+                border: 2px solid white;
+            }*/
+            .button-darknavy {
+                background-color: #000033; 
+                border: 2px solid #000033; 
+                color: white; 
+                width: 200px;
+                text-align: center;
+                border-radius: 25px;
+                transition: background-color 0.5s;
+                margin-left: 325px;
+                
+            }
+            .button-darknavy:hover {
+                background-color: #ADF802; 
+                border: 2px solid #ADF802; 
+                color: #000033;
+            }
+            .center-text {
+                text-align: center;
+                display: flex;
+            }
+            .center-text1, .center-text2, .center-text3, .center-text4 {
+                margin: 12px;
+            }
+            .carousel-card {
+                height: 400px;
+                width: 1000px;
+                padding: 2px;
+                display: flex;
+            }
+            .carousel-card1, .carousel-card2, .carousel-card3, .carousel-card4 {
+                border: 2px solid black;
+                border-radius: 24px;
+                height: 300px;
+                transform: rotate(deg)45deg;
+                width: 650px;
+                margin: 10px;
+            }
+            .head-text {
+                text-align: center;
+            }
+            .hidden-bar {
+                padding: 24px;
+            }
+            .text {
+                padding: 23px;
+                width: 80%;
+                height: 200px;
+                border: 1px solid grey;
+                border-radius: 25px;
+                box-shadow: 0 0 5px black;
+                margin: 10px;
+            }
+            .contact {
+                padding: 25px;
+                border-radius: 25px;
+                background-color: #FDF5E2;
+                margin: 10px;
+                color: grey;
+            }
+            .contact h3 {
+                color: black;
+            }
+            .contact p a {
+                color: black;
+            }
+            .center-head {
+                border-radius: 25px;
+                padding: 25px;
+                margin: 10px;
+                font-size: 24px;
+                text-align: center;
+            }
+            .center-head .button-darknavy {
+                font-size: 17px;
+                font-style: bold;
+            }
+            .learn {
+                border-radius: 15px;
+                background-color: darkgreen;
+                padding: 40px;
+                margin: 10px;
+                width: 300px;
+            }
+            .learn h1 {
+                color: white;
+            }
+            .learn p {
+                color: lightgrey;
+            }
+
+            .text-head i {
+                font-size: 24px;
+            }
+            .h1-head {
+                font-size: 40px;
+            }
+            .para-text a {
+                color: black;
+            }
+            .fin {
+                background-color: #FDF5E2;
+                padding: 120px;
+                display: flex;
+            }
+            .list1, .list2, .list3, .card-box {
+                margin: 10px;
+            }
+            .list1 b, .list2 b, .list3 b {
+                margin-bottom: 200px;
+                padding-bottom: 25px;
+            }
+            .alist a {
+                color: grey;
+                margin-bottom: 30px;
+                margin-right: 25px;
+                text-decoration: none;
+            }
+            footer {
+                background-color: #FDF5E2;
+                color: black;
+            }
+            .card-box {
+                border-radius: 25px;
+                background-color: darkgreen;
+                padding: 25px;
+                display: inline-block;
+                text-align: center;
+                width: 260px;
+            }
+            .card-box h1 {
+                color: white;
+            }
+            .card-box p {
+                color: lightgrey;
+            }
+            input {
+                border-radius: 25px;
+                color: grey;
+                width: 200px;
+                height: 43px;
+                padding: 5px;
+            }
+            button {
+                border-radius: 25px;
+                height: 45px;
+                background-color: lightgrey;
+                margin: 0px 10px 0px 10px;
+                cursor: pointer;
+                text-decoration: none;
+                background-color: lightgreen;
+            }
+            .button:hover {
+                color: white;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin-left: 80px;
+                text-wrap-style: inline-block;
+            }
+            .carousel {
+                border: 2px solid black;
+                padding: 25px;
+                margin: 10px;
+            }
+            .carousel .testi {
+                border: 2px solid black;
+                margin: 10px;
+                padding: 25px;
+            }
+            .carousel img {
+                border: 2px solid black;
+                height: 400px;
+                width: 250px;
+                margin: 10px;
+                border-radius: 25px;
+            }
+            .prev, .next {
+                
+            }
+            .prev {
+                left: ;
+            }
+            .next {
+                right: ;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header-bar">
+                <div class="logo">
+                
+                </div>
+            <div class="toggle-bar"><i class="fa-solid fa-bars"></i></div>
+            <nav>
+            <a href="home.html"></a>
+            <a href="about.html">About Us</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="blog.html">Blog</a>
+            <button type="connect">Get in touch</button>
+            </nav>
+            </div>
+        <div class="green-card">
+            <h1>Energizing a Green Future</h1>
+            <p>Our commitment to green energy is paving the way for a cleaner, healthier planet. Join us on a journey towards a future where clean, renewable energy sources transform the way we power our lives.
+            </p>
+              <button type="solution">See our Solutions</button>
+            </div>
+        </header>
+        <div class="center-text">
+            <div class="center-text1">
+            <h1>5,000 Mwh</h1>
+               <p>Renewable Energy Generated</p>
+               </div>
+            <div class="center-text2">
+            <h1>2,500+</h1>
+               <p>Renewable Energy Generated</p>
+               </div>
+            <div class="center-text3">
+            <h1>10,000+</h1>
+               <p>Renewable Energy Generated</p>
+               </div>
+            <div class="center-text4">
+            <h1>15%</h1>
+               <p>Renewable Energy Generated</p>
+               </div>
+        </div>
+        <div class="lemonade-card">
+            <div class="text-head">
+                <p><i class="fa-solid fa-circle"></i>Solutions</p>
+            </div>
+            <div class="h1-head">
+                <p>Key to clean Future</p>
+            </div>
+            <div class="para-text">
+                <h1>EV charging</h1>
+                    <p>EVs use electricity as a power source, which can be generated from renewable energy sources. Our solutions help reducing greenhouse gas emissions in the transportation sector.</p>
+                     <a href="">Read more</a>
+            </div>
+            <div class="para-text">
+                <h1>Solar Energy</h1>
+                    <p>Solar panels convert sunlight into electricity. Photovoltaic (PV) cells on these panels capture the energy from the sun and convert it into electrical power.</p>
+                     <a href="">Read more</a>
+            </div>
+            <div class="para-text">
+                <h1>Wind Energy</h1>
+                    <p>Wind turbines harness the kinetic energy of the wind to generate electricity. Wind farms with multiple turbines are commonly used to produce large amounts of clean energy.</p>
+                      <a href="">Read more</a>
+            </div>
+            <div class="para-text">
+                <h1>Hydropower</h1>
+                    <p>This technology uses the energy from flowing water, such as rivers and dams, to turn turbines and generate electricity. It's one of the oldest forms of renewable energy.</p>
+                      <a href="">Read more</a>
+            </div>
+        </div>
+        <div class="center-head">
+            <p>Our commitment to green energy is paving the way for a cleaner, healthier planet.</p>
+            <div class="button-darknavy">
+                <p>Get in touch</p>
+            </div>
+        </div>
+        <div class="carousel-card">
+            <div class="carousel-card1">
+                <img src="">
+            </div>
+            <div class="carousel-card2">
+                <img src="">
+            </div>
+            <div class="carousel-card3">
+                <img src="">
+            </div>
+            <div class="carousel-card4">
+                <img src="">
+            </div>
+        </div>
+        <div class="head-text">
+            <h1>FAQ</h1>
+            <h6>Here you will find the answers to the frequently asked questions.</h6>
+        </div>
+        <div class="hidden-bar">
+            <div class="qA">
+                <div class="text">
+                    <p>
+                        What is green energy?
+                    </p>
+                    <div class="text1ans">
+                        <p>
+                            We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>
+                        How does green energy benefit the environment?
+                    </p>
+                    <div class="text2ans">
+                        <p>
+                            We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>
+                        What green energy solutions does your company offer?
+                    </p>
+                    <div class="text3ans">
+                        <p>
+                            We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>
+                        What support services do you offer after installing green energy solutions?
+                    </p>
+                    <div class="text4ans">
+                        <p>
+                            We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability.
+                        </p>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>
+                        How do solar panels work?
+                    </p>
+                    <div class="text5ans">
+                        <p>
+                            We provide a range of green energy solutions, including solar power systems, wind turbines, energy-efficient appliances, and smart home technologies to enhance energy sustainability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h3>Still have questions?</h3>
+            <p>For assistance, please visit our <a href="callto:(671) 555-0110"><u>Contact Us</u></a> page or call our customer support hotline at <a href="callto:(671) 555-0110"><b>(671) 555-0110</b></a>. Our dedicated team is ready to help you on your journey to a greener, more sustainable future.</p>
+        </div>
+        <div class="carousel">
+               <img src="">
+            <div class="testi active">
+                <p class="quote">
+                    “Flow transformed my energy use. Efficient, green tech, outstanding service!”
+                </p>
+                <p class="name">
+                    Jenny Wilson
+                </p>
+                <p class="status">
+                    Solar energy service
+                </p>
+                <button type="prev"></button>
+                <button type="next"></button>
+            </div>
+            <img src="">
+            <div class="testi">
+                <p class="quote">
+                    “Efficient, green tech, outstanding service”
+                </p>
+                <p class="name">
+                    John Jones
+                </p>
+                <p class="status">
+                    CE0 Solar Company
+                </p>
+                <button type="prev"></button>
+                <button type="next"></button>
+            </div>
+            <img src="">
+            <div class="testi">
+                <p class="quote">
+                    “Flow transformed my energy use. Efficient, green tech, outstanding service!”
+                </p>
+                <p class="name">
+                    James Harrison
+                </p>
+                <p class="status">
+                    Developer
+                </p>
+                <button type="prev"></button>
+                <button type="next"></button>
+            </div>
+        </div>
+        <div class="learn">
+            <h1>Learn Frontend Web Development</h1>
+            <p>Visit www.pixelrocket.store and learn how to become a frontend web developer</p>
+            <button type="learn">Get started</button>
+        </div>
+        <div class="fin">
+            <div class="list1">
+                <b>Platform</b>
+                <div class="alist">
+                <a href="">Solutions</a>
+                <a href="">How it works</a>
+                <a href="">Pricing</a>
+                </div>
+            </div>
+            <div class="list2">
+                <b>Resources</b>
+                <div class="alist">
+                <a href="">Help Center</a>
+                <a href="">Support</a>
+                </div>
+            </div>
+            <div class="list3">
+                <b>Company</b>
+                <div class="alist">
+                <a href="">About</a>
+                <a href="">Our Mission</a>
+                <a href="">Careers</a>
+                <a href="">Contact</a>
+                </div>
+            </div>
+            <div class="card-box">
+                <h1>Your Source for Green Energy Updates</h1>
+                <p>Stay in the loop with our Green Horizon newsletter, where we deliver bite-sized insights into the latest green energy solutions.</p>
+                <input type="text" id="email" name="email" placeholder="Your e-mail..." required>
+                <button type="submit">Submit</button>
+                <button type="connect">Get in touch </button>
+            </div>
+        </div>
+    <footer>
+        <div class="social-icons">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+            <p class="reserve">
+                © 2024 Flow. All rights reserved by <a href="">Pixelrocket</a> • Distributed by ThemeWagon
+            </p>
+    </footer>
+    <script>
+        
+    </script>
+    </body>
+</html>
